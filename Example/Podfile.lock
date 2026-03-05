@@ -1,0 +1,16 @@
+PODS:
+  - KochbuchDeviceInfo (0.0.1)
+
+DEPENDENCIES:
+  - KochbuchDeviceInfo (from `../`)
+
+EXTERNAL SOURCES:
+  KochbuchDeviceInfo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KochbuchDeviceInfo: 89e62cd928c0069da1a786a89d2f4b68cb98fdf8
+
+PODFILE CHECKSUM: a1d9eceddf728989e12d53d32437821f9b19776f
+
+COCOAPODS: 1.16.2

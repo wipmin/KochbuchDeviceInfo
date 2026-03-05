@@ -1,0 +1,6 @@
+framework module KochbuchDeviceInfo {
+  umbrella header "KochbuchDeviceInfo-umbrella.h"
+
+  export *
+  module * { export * }
+}

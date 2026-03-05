@@ -1,0 +1,6 @@
+framework module Pods_KochbuchDeviceInfo_Tests {
+  umbrella header "Pods-KochbuchDeviceInfo_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
