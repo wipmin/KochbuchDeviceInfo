@@ -1,6 +1,5 @@
 # KochbuchDeviceInfo
 
-[![CI Status](https://img.shields.io/travis/wipmin/KochbuchDeviceInfo.svg?style=flat)](https://travis-ci.org/wipmin/KochbuchDeviceInfo)
 [![Version](https://img.shields.io/cocoapods/v/KochbuchDeviceInfo.svg?style=flat)](https://cocoapods.org/pods/KochbuchDeviceInfo)
 [![License](https://img.shields.io/cocoapods/l/KochbuchDeviceInfo.svg?style=flat)](https://cocoapods.org/pods/KochbuchDeviceInfo)
 [![Platform](https://img.shields.io/cocoapods/p/KochbuchDeviceInfo.svg?style=flat)](https://cocoapods.org/pods/KochbuchDeviceInfo)
