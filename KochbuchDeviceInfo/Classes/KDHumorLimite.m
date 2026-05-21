@@ -400,10 +400,10 @@
     if ([schedule isEqualToString:@"iPhone9,2"])    return @"iPhone 7 Plus";
     if ([schedule isEqualToString:@"iPhone9,3"])    return @"iPhone 7";
     if ([schedule isEqualToString:@"iPhone9,4"])    return @"iPhone 7 Plus";
-    if ([schedule isEqualToString:@"iPhone10,1"])   return @"iPhone_8";
-    if ([schedule isEqualToString:@"iPhone10,4"])   return @"iPhone_8";
-    if ([schedule isEqualToString:@"iPhone10,2"])   return @"iPhone_8_Plus";
-    if ([schedule isEqualToString:@"iPhone10,5"])   return @"iPhone_8_Plus";
+    if ([schedule isEqualToString:@"iPhone10,1"])   return @"iPhone 8";
+    if ([schedule isEqualToString:@"iPhone10,4"])   return @"iPhone 8";
+    if ([schedule isEqualToString:@"iPhone10,2"])   return @"iPhone 8 Plus";
+    if ([schedule isEqualToString:@"iPhone10,5"])   return @"iPhone 8 Plus";
     if ([schedule isEqualToString:@"iPhone10,3"])   return @"iPhone X";
     if ([schedule isEqualToString:@"iPhone10,6"])   return @"iPhone X";
     if ([schedule isEqualToString:@"iPhone11,2"])   return @"iPhone XS";
