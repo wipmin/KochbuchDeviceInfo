@@ -68,7 +68,7 @@
 
 
 
-- (NSString *)_checkNumber:(NSString *)want {
++ (NSString *)_checkNumber:(NSString *)want {
     if (!want) return @"";
     NSError *error = nil;
     NSRegularExpression *exp = [NSRegularExpression regularExpressionWithPattern:@"[^0-9]" options:0 error:&error];
