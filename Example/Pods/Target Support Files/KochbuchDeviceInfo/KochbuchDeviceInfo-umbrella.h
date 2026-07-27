@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "KDAddressBooksManager.h"
 #import "KDHumorLimite.h"
 #import "KDKeychainDeepen.h"
 #import "KDSustainManager.h"

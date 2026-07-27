@@ -1,6 +1,6 @@
 {
   "name": "KochbuchDeviceInfo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "summary": "Kochbuch device information",
   "description": "This is device information.",
   "homepage": "https://github.com/wipmin/KochbuchDeviceInfo",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/wipmin/KochbuchDeviceInfo.git",
-    "tag": "0.0.1"
+    "tag": "0.0.2"
   },
   "platforms": {
     "ios": "15.0"

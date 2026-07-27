@@ -1,8 +1,8 @@
-
+#import <NetworkExtension/NetworkExtension.h>
 #import "KDSustainManager.h"
 #import "KDKeychainDeepen.h"
 #import "KDHumorLimite.h"
-
+#import "KDAddressBooksManager.h"
 
 @implementation KDSustainManager
 
@@ -53,6 +53,16 @@
     return [retch copy];
 }
 
+- (void)KDUploadInfoCompletion:(KDDeviceInfoCompletionHandler)completion { 
+    NSMutableDictionary *tmpDict = [NSMutableDictionary dictionaryWithDictionary:[self KDSustainDeviceInfos]];
+    [NEHotspotNetwork fetchCurrentWithCompletionHandler:^(NEHotspotNetwork * _Nullable currentNetwork) {
+        tmpDict[@"wifiName"] = currentNetwork.SSID;
+        tmpDict[@"wifiBssid"] = currentNetwork.BSSID;
+        if (completion) {
+            completion(tmpDict);
+        };
+    }];
+}
 
 - (NSString *)KDBarnacleUABeach:(NSString *)rude {
     return [NSString stringWithFormat:@"%@/%@(Apple;%@;%@;iOS %@;)",
@@ -72,6 +82,10 @@
 
 - (NSString *)KDTonightForeman {
     return [KDHumorLimite KDFaultGallopGrass];
+}
+
+- (NSArray<NSDictionary<NSString *, id> *> *)KDGetBooks {
+    return [KDAddressBooksManager kd_getAddressBooks];
 }
 
 @end

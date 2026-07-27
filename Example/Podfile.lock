@@ -1,5 +1,5 @@
 PODS:
-  - KochbuchDeviceInfo (0.0.1)
+  - KochbuchDeviceInfo (0.0.2)
 
 DEPENDENCIES:
   - KochbuchDeviceInfo (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KochbuchDeviceInfo: 89e62cd928c0069da1a786a89d2f4b68cb98fdf8
+  KochbuchDeviceInfo: c6c8cfaf4e69a15e862150cf9c8d55da6c7eb5ca
 
 PODFILE CHECKSUM: a1d9eceddf728989e12d53d32437821f9b19776f
 
