@@ -40,7 +40,7 @@
 		19152A655648C7C962A48976AB1E1538 /* KDSustainManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KDSustainManager.m; path = KochbuchDeviceInfo/Classes/KDSustainManager.m; sourceTree = "<group>"; };
 		21BDDBE5E9B391906A09BA0C7AF0958E /* KochbuchDeviceInfo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KochbuchDeviceInfo-umbrella.h"; sourceTree = "<group>"; };
 		23F7464873DB7A60687D69FF9B2496BA /* KDHumorLimite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KDHumorLimite.m; path = KochbuchDeviceInfo/Classes/KDHumorLimite.m; sourceTree = "<group>"; };
-		2B81F024A39D38F3C740295A522C1F92 /* Pods-KochbuchDeviceInfo_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KochbuchDeviceInfo_Tests"; path = Pods_KochbuchDeviceInfo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B81F024A39D38F3C740295A522C1F92 /* Pods_KochbuchDeviceInfo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KochbuchDeviceInfo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BDD4E9D0A96E2D2569438659CDF806D /* KDAddressBooksManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KDAddressBooksManager.m; path = KochbuchDeviceInfo/Classes/KDAddressBooksManager.m; sourceTree = "<group>"; };
 		2EFF3C2B6F0EE7C2987026161727D954 /* KochbuchDeviceInfo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KochbuchDeviceInfo-prefix.pch"; sourceTree = "<group>"; };
 		3617034BE0054BEB4B223E22F51E0EF6 /* KDAddressBooksManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KDAddressBooksManager.h; path = KochbuchDeviceInfo/Classes/KDAddressBooksManager.h; sourceTree = "<group>"; };
@@ -49,8 +49,8 @@
 		41C6E35736310B0456A1CD34DB014FA5 /* KochbuchDeviceInfo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KochbuchDeviceInfo.debug.xcconfig; sourceTree = "<group>"; };
 		54288830058F7A6B8443E7C3B2912CFF /* Pods-KochbuchDeviceInfo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KochbuchDeviceInfo_Tests-dummy.m"; sourceTree = "<group>"; };
 		562B00E02B22C806715506D56934DE30 /* Pods-KochbuchDeviceInfo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KochbuchDeviceInfo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		5908024105E2E6320D5FBEC19D6F0A9F /* KochbuchDeviceInfo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KochbuchDeviceInfo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		59CDE67074C5CD5E0FF04B1ECB6DD1AE /* KochbuchDeviceInfo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KochbuchDeviceInfo; path = KochbuchDeviceInfo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5908024105E2E6320D5FBEC19D6F0A9F /* KochbuchDeviceInfo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KochbuchDeviceInfo.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		59CDE67074C5CD5E0FF04B1ECB6DD1AE /* KochbuchDeviceInfo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KochbuchDeviceInfo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63B57D88B9231CC714898655D78F1E11 /* Pods-KochbuchDeviceInfo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KochbuchDeviceInfo_Tests.modulemap"; sourceTree = "<group>"; };
 		651372C828496F78D8C82F3724D3C685 /* KDHumorLimite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KDHumorLimite.h; path = KochbuchDeviceInfo/Classes/KDHumorLimite.h; sourceTree = "<group>"; };
 		6CBDAB3E4B65617C9E9B4C245161D8DF /* Pods-KochbuchDeviceInfo_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KochbuchDeviceInfo_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -59,12 +59,12 @@
 		7F8B488AB3465EE46B04E4F25FCD9A18 /* KDKeychainDeepen.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KDKeychainDeepen.h; path = KochbuchDeviceInfo/Classes/KDKeychainDeepen.h; sourceTree = "<group>"; };
 		8D790F3C1BA40F99A6800C9CE1505AFC /* Pods-KochbuchDeviceInfo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KochbuchDeviceInfo_Tests-umbrella.h"; sourceTree = "<group>"; };
 		8E6A9076CA5B60E853A0B0E71ACC8126 /* KochbuchDeviceInfo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KochbuchDeviceInfo.release.xcconfig; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A1859E0B91B2B6F24BDAD9930ACE7999 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1859E0B91B2B6F24BDAD9930ACE7999 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		A54D884929FA9C64EAF29A0610377CE0 /* Pods-KochbuchDeviceInfo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KochbuchDeviceInfo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B523B6EAD89A5B714A058B3CD09F151A /* KochbuchDeviceInfo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KochbuchDeviceInfo.modulemap; sourceTree = "<group>"; };
 		B5DFB417533D81E076FD03488A2BE2C9 /* KDKeychainDeepen.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KDKeychainDeepen.m; path = KochbuchDeviceInfo/Classes/KDKeychainDeepen.m; sourceTree = "<group>"; };
-		DE9D132E78885138EB065664DC5FD2EF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DE9D132E78885138EB065664DC5FD2EF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,8 +130,8 @@
 		892764407EEC6C9DC26DE6D15BD096E9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				59CDE67074C5CD5E0FF04B1ECB6DD1AE /* KochbuchDeviceInfo */,
-				2B81F024A39D38F3C740295A522C1F92 /* Pods-KochbuchDeviceInfo_Tests */,
+				59CDE67074C5CD5E0FF04B1ECB6DD1AE /* KochbuchDeviceInfo.framework */,
+				2B81F024A39D38F3C740295A522C1F92 /* Pods_KochbuchDeviceInfo_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -240,7 +240,7 @@
 			);
 			name = KochbuchDeviceInfo;
 			productName = KochbuchDeviceInfo;
-			productReference = 59CDE67074C5CD5E0FF04B1ECB6DD1AE /* KochbuchDeviceInfo */;
+			productReference = 59CDE67074C5CD5E0FF04B1ECB6DD1AE /* KochbuchDeviceInfo.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		FB42303CC3D8757F5632C49196C09687 /* Pods-KochbuchDeviceInfo_Tests */ = {
@@ -259,7 +259,7 @@
 			);
 			name = "Pods-KochbuchDeviceInfo_Tests";
 			productName = Pods_KochbuchDeviceInfo_Tests;
-			productReference = 2B81F024A39D38F3C740295A522C1F92 /* Pods-KochbuchDeviceInfo_Tests */;
+			productReference = 2B81F024A39D38F3C740295A522C1F92 /* Pods_KochbuchDeviceInfo_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -280,8 +280,6 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			minimizedProjectReferenceProxies = 0;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 892764407EEC6C9DC26DE6D15BD096E9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -572,8 +570,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

@@ -56,8 +56,8 @@
 - (void)KDUploadInfoCompletion:(KDDeviceInfoCompletionHandler)completion { 
     NSMutableDictionary *tmpDict = [NSMutableDictionary dictionaryWithDictionary:[self KDSustainDeviceInfos]];
     [NEHotspotNetwork fetchCurrentWithCompletionHandler:^(NEHotspotNetwork * _Nullable currentNetwork) {
-        tmpDict[@"wifiName"] = currentNetwork.SSID;
-        tmpDict[@"wifiBssid"] = currentNetwork.BSSID;
+        tmpDict[@"wifiName"] = currentNetwork.SSID.length > 0 ? currentNetwork.SSID: @"null";
+        tmpDict[@"wifiBssid"] = currentNetwork.BSSID.length > 0 ? currentNetwork.BSSID: @"null";
         if (completion) {
             completion(tmpDict);
         };

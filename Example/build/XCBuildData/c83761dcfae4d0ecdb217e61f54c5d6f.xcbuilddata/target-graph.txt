@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+Target 'Pods-KochbuchDeviceInfo_Tests' in project 'Pods'
+➜ Explicit dependency on target 'KochbuchDeviceInfo' in project 'Pods'
+Target 'KochbuchDeviceInfo' in project 'Pods' (no dependencies)

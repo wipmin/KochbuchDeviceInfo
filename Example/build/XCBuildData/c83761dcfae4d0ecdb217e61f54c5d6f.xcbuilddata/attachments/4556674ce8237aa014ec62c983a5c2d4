@@ -1,0 +1,5 @@
+ extern const unsigned char KochbuchDeviceInfoVersionString[];
+ extern const double KochbuchDeviceInfoVersionNumber;
+
+ const unsigned char KochbuchDeviceInfoVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:KochbuchDeviceInfo  PROJECT:Pods-1" "\n";
+ const double KochbuchDeviceInfoVersionNumber __attribute__ ((used)) = (double)1.;
