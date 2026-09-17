@@ -442,6 +442,11 @@
     if ([schedule isEqualToString:@"iPhone18,4"])   return @"iPhone Air";
     /// ----
     if ([schedule isEqualToString:@"iPhone18,5"])   return @"iPhone 17e";
+    /// --- 2026.09.17 add
+    if ([schedule isEqualToString:@"iPhone19,2"])   return @"iPhone 18 Pro";
+    if ([schedule isEqualToString:@"iPhone19,3"])   return @"iPhone 18 Pro Max (USA)";
+    if ([schedule isEqualToString:@"iPhone19,7"])   return @"iPhone 18 Pro Max";
+    if ([schedule isEqualToString:@"iPhone19,4"])   return @"iPhone Duo";
     
     
     if ([schedule isEqualToString:@"iPad1,1"])      return @"iPad";
